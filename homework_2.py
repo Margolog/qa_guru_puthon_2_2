@@ -6,7 +6,7 @@ import pytest
 @pytest.fixture()
 def open_browser():
     browser.config.window_width = 1000
-    browser.config.window_height = 1300
+    browser.config.window_height = 1100
 
 
 def test_one(open_browser):
